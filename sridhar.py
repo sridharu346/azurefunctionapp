@@ -1,3 +1,4 @@
+## Function App to deploy in Azure for testing purposes.
 import azure.functions as func
 import logging
 
