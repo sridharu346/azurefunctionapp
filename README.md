@@ -2,6 +2,8 @@
 
 A Python Azure Function App for testing purposes with automatic deployment via GitHub Actions.
 
+**Last Deployment**: 2024-12-19
+
 ## Function Details
 
 - **Function Name**: `functiontesting`
@@ -54,7 +56,7 @@ Once configured, every push to the `main` branch will automatically trigger depl
 
 After deployment, your function will be available at:
 ```
-https://your-function-app-name.azurewebsites.net/api/functiontesting?code=YOUR_FUNCTION_KEY
+https://sridharpython-function-app-2024-ghg7dkd7bgfvdmg9.eastus2-01.azurewebsites.net/api/functiontesting?code=YOUR_FUNCTION_KEY
 ```
 
 ## Testing
