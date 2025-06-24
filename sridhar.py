@@ -2,8 +2,9 @@
 import azure.functions as func
 import logging
 
-app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
+app = func.FunctionApp()
 
+@app.function_name(name="functiontesting")
 @app.route(route="functiontesting")
 def functiontesting(req: func.HttpRequest) -> func.HttpResponse:
     """
